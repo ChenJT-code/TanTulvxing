@@ -3,22 +3,22 @@
     <el-form :model="form" :rules="rules" ref="ruleForm" class="demo-ruleForm">
       <!-- 用户名或手机号 -->
       <el-form-item prop="username">
-        <el-input v-model="form.username" placeholder="用户名/手机号"></el-input>
+        <el-input v-model="form.username" placeholder="请输入手机号"></el-input>
       </el-form-item>
       <!-- 验证码 -->
       <div class="yanzheng">
         <el-form-item prop="captcha">
-          <el-input v-model="form.captcha" placeholder="验证码"></el-input>
+          <el-input v-model="form.captcha" placeholder="请输入验证码"></el-input>
           <el-button @click="sendYanZheng">发送验证码</el-button>
         </el-form-item>
       </div>
       <!-- 昵称 -->
       <el-form-item prop="nickname">
-        <el-input v-model="form.nickname" placeholder="昵称"></el-input>
+        <el-input v-model="form.nickname" placeholder="请输入昵称"></el-input>
       </el-form-item>
       <!-- 密码 -->
       <el-form-item prop="password">
-        <el-input v-model="form.password" placeholder="密码" type="password"></el-input>
+        <el-input v-model="form.password" placeholder="请输入密码" type="password"></el-input>
       </el-form-item>
       <!-- 确认密码 -->
       <el-form-item prop="checkPassword">
@@ -125,6 +125,8 @@ export default {
   padding: 25px 25px 0px;
   .el-button--primary {
     width: 100%;
+    background-color: #d8900a;
+    border-color: #d8900a;
   }
   .yanzheng {
     position: relative;

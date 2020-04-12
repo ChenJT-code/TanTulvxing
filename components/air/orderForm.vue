@@ -1,7 +1,7 @@
 <template>
   <div class="main">
     <div class="air-column">
-      <h2>剩机人</h2>
+      <h2>乘机人</h2>
       <el-form class="member-info" :model="{users}" ref="usersRules">
         <div class="member-info-item" v-for="(item,index) in users" :key="index">
           <el-form-item

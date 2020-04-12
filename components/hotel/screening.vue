@@ -269,7 +269,7 @@ export default {
 <style lang='less' scoped>
 .screening {
   height: 75px;
-  border: 1px solid #ddd;
+  border: 2px solid #2064c8;
   margin: 20px 0;
   padding: 3px 0;
   box-sizing: border-box;
@@ -283,7 +283,7 @@ export default {
     width: 240px;
     padding: 8px 20px;
     box-sizing: border-box;
-    border-right: 1px solid #ddd;
+    border-right: 1px solid #2064c8;
     height: 100%;
     float: left;
   }
@@ -295,7 +295,7 @@ export default {
       width: 189px;
       padding: 8px 20px;
       box-sizing: border-box;
-      border-right: 1px solid #ddd;
+      border-right: 1px solid #2064c8;
       height: 100%;
       .el-dropdown-link{
         cursor: pointer;

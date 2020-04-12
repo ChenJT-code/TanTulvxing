@@ -30,26 +30,27 @@ export default {
 
 <style lang='less' scoped>
 .login {
-  height: 700px;
-  background: url("http://157.122.54.189:9095/assets/images/th01.jfif") center
+  height: 550px;
+  background: url("../../assets/images/登录背景5.jpg") center
     center no-repeat;
   background-size: contain contain;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  // justify-content: center;
+  // align-items: center;
   .loginBox {
-    width: 400px;
-    background-color: #fff;
+    width: 350px;
+    background-color: #f6f6f6;
+    margin: 65px 77px;
     .titleTab {
       display: flex;
       height: 45px;
       span {
         text-align: center;
         flex: 1;
-        color: #ffa500;
+        color: #d8900a;
         font-weight: 700;
         height: 100%;
-        border-top: 2px solid #ffa500;
+        // border-top: 2px solid #ffa500;
         display: flex;
         align-items: center;
         justify-content: center;

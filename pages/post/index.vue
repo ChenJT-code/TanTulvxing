@@ -1,8 +1,6 @@
 <template>
   <div class="container">
     <el-row type="flex" justify="space-between">
-      <PostNav />
-
       <div>
         <PostList />
       </div>
@@ -11,12 +9,10 @@
 </template>
 
 <script>
-import PostNav from '@/components/post/postNav'
-
 import PostList from '@/components/post/postList'
 export default {
   components: {
-    PostNav, PostList
+     PostList
   }
 }
 </script>

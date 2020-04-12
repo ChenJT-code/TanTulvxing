@@ -2,11 +2,11 @@
   <div class="container">
     <div class="main">
       <div class="pay-title">
-        支付总金额
+        <strong>总金额</strong> 
         <span class="pay-price">￥ {{payData.price}}</span>
       </div>
       <div class="pay-main">
-        <h4>微信支付</h4>
+        <h4>请使用微信支付</h4>
         <el-row type="flex" justify="space-between" align="middle" class="pay-qrcode">
           <div class="qrcode">
             <!-- 二维码 -->
@@ -145,13 +145,15 @@ export default {
     .pay-main {
       background: #fff;
       margin-top: 10px;
-      border-top: 5px orange solid;
+      // border-top: 5px orange solid;
       padding: 30px;
 
       h4 {
         font-size: 28px;
         font-weight: normal;
         margin-bottom: 10px;
+        padding-left: 350px;
+        color: #2064c8;
       }
 
       .pay-qrcode {

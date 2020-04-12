@@ -25,10 +25,10 @@
       </div>
 
       <!-- 侧边栏 -->
-      <div class="aside">
+      <!-- <div class="aside"> -->
         <!-- 侧边栏组件 -->
-        <flightsAside />
-      </div>
+        <!-- <flightsAside /> -->
+      <!-- </div> -->
     </el-row>
   </section>
 </template>
@@ -38,7 +38,7 @@ import moment from "moment";
 import flightsHeadList from "@/components/air/flightsHeadList.vue";
 import flightsItem from "@/components/air/flightsItem.vue";
 import flightsFilters from "@/components/air/flightsFilters.vue";
-import flightsAside from "@/components/air/flightsAside.vue";
+// import flightsAside from "@/components/air/flightsAside.vue";
 export default {
   data() {
     return {
@@ -61,7 +61,7 @@ export default {
     flightsHeadList,
     flightsItem,
     flightsFilters,
-    flightsAside
+    // flightsAside
   },
   watch: {
     $route() {
@@ -116,7 +116,7 @@ export default {
 }
 
 .flights-content {
-  width: 745px;
+  width: 1000px;
   font-size: 14px;
 }
 .el-pagination {

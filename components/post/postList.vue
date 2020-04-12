@@ -2,10 +2,10 @@
   <div class="post-list">
     <div class="search-wrapper">
       <el-row class="search-bar">
-        <el-input v-model="input" @change="sou" placeholder="请输入想去的地方，比如: '广州' " />
+        <el-input v-model="input" @change="sou" placeholder="搜索城市攻略" />
         <i @click="sou" class="el-icon-search icon" />
       </el-row>
-      <el-row class="search-recommend">
+      <!-- <el-row class="search-recommend">
         推荐：
         <nuxt-link :to="`/post?city=广州`">
           <span>广州</span>
@@ -16,14 +16,15 @@
         <nuxt-link :to="`/post?city=北京`">
           <span>北京</span>
         </nuxt-link>
-      </el-row>
+      </el-row> -->
     </div>
-    <el-row type="flex" justify="space-between" class="search-title" align="middle">
+    <el-row type="flex" class="search-title" align="middle">
       <h4>推荐攻略</h4>
-      <nuxt-link to="/post/create">
-        <el-button type="primary" icon="el-icon-edit">
+      <nuxt-link to="/post/create" class="fabiao">
+        <!-- <el-button type="primary" icon="el-icon-edit">
           写游记
-        </el-button>
+        </el-button> -->
+        <h4><strong>发表攻略</strong></h4>
       </nuxt-link>
     </el-row>
     <!-- 上下布局 -->
@@ -203,12 +204,17 @@ export default {
 
 <style lang='less' scoped>
 .post-list {
-  width: 700px;
+  width: 980px;
   .search-wrapper {
+    margin-bottom: 20px;
     .search-bar {
       position: relative;
-      border: 3px solid orange;
+      border: 2px solid #2064c8;
+      border-radius: 20px;
+      width: 700px;
       /deep/.el-input {
+        width: 600px;
+        margin-left: 15px;
         input {
           height: 34px;
           border: none;
@@ -221,7 +227,7 @@ export default {
         right: 10px;
         top: 6px;
         font-size: 24px;
-        color: orange;
+        color: #2064c8;
         font-weight: 700;
       }
     }
@@ -243,24 +249,27 @@ export default {
     position: relative;
     h4 {
       font-size: 18px;
-      color: orange;
+      color: #2064c8;
       font-weight: 400;
       &:after {
         display: block;
         content: "";
         width: 72px;
         height: 2px;
-        background: orange;
+        background: #2064c8;
         position: absolute;
         bottom: 0;
         left: 0;
       }
     }
+    .fabiao{
+      margin-left: 20px;
+    }
   }
   .post-item {
     width: 100%;
     padding: 20px 0;
-    border-bottom: 1px solid #eee;
+    // border-bottom: 1px solid #eee;
     .post-cover{
         width: 220px;
         height: 150px;

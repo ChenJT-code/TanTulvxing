@@ -21,7 +21,7 @@ export default {
  data() {
     return {
       userForm: {
-        username: "13800138000",
+        username: "13075130000",
         password: "123456"
       },
       rules: {
@@ -61,6 +61,8 @@ export default {
     padding: 30px 25px 0px;
     .el-button--primary {
       width: 100%;
+      background-color: #d8900a;
+      border-color:#d8900a;
     }
     .losePassword {
       display: block;

@@ -2,49 +2,40 @@
   <div class="footer-wrapper">
     <div class="footer">
       <el-row class="info-list">
-        <el-col :span="6" :offset="1">
-          <h5>闲云旅游旅游网</h5>
-          <p>上亿旅行者共同打造的"旅行神器"</p>
-          <p>
-            <span>60,000</span> 多个全球旅游目的地
-          </p>
-          <p>
-            <span>600,000</span> 个细分目的地新玩法
-          </p>
-          <p>
-            <span>760,000,000</span> 次攻略下载
-          </p>
-          <p>
-            <span>38,000</span> 家旅游产品供应商
-          </p>
+        <el-col :span="5" :offset="1">
+          <h5>旅游资讯</h5>
+          <p>宾馆索引&nbsp;&nbsp;&nbsp;攻略索引</p>
+          <p>机票索引&nbsp;&nbsp;&nbsp;网站导航</p>
+          <p>旅游索引&nbsp;&nbsp;&nbsp;火车票索引</p>
+          <p>游轮索引&nbsp;&nbsp;&nbsp;企业差旅索引</p>
+          <p>用车索引</p>
         </el-col>
         <el-col :span="5">
-          <h5>关于我们</h5>
-          <p>隐私政策 商标声明</p>
-          <p>服务协议 游记协议</p>
-          <p>商城平台服务协议</p>
-          <p>网络信息侵权通知指引</p>
-          <p>闲云旅游旅游网服务监督员</p>
-          <p>网站地图加入闲云旅游</p>
+          <h5>加盟合作</h5>
+          <p>分销联盟&nbsp;&nbsp;&nbsp;友情链接</p>
+          <p>广告业务&nbsp;&nbsp;&nbsp;企业礼品卡采购</p>
+          <p>保险代理&nbsp;&nbsp;&nbsp;代理合作</p>
+          <p>酒店加盟&nbsp;&nbsp;&nbsp;目的地及景区合作</p>
+          <p>智慧旅游&nbsp;&nbsp;&nbsp;更多加盟合作</p>
         </el-col>
         <el-col :span="5">
-          <h5>旅行服务</h5>
-          <p>旅游攻略 酒店预订</p>
-          <p>旅游特价 国际租车</p>
-          <p>旅游问答 旅游保险</p>
-          <p>旅游指南 订火车票</p>
-          <p>旅游资讯 APP下载</p>
+          <h5>关于“趣生活”</h5>
+          <p>联系我们&nbsp;&nbsp;&nbsp;诚聘英才</p>
+          <p>旅游资质&nbsp;&nbsp;&nbsp;企业公民</p>
+          <p>用户协议&nbsp;&nbsp;&nbsp;隐私政策</p>
+          <p>营业执照&nbsp;&nbsp;&nbsp;安全中心</p>
+          <p>信用卡&nbsp;&nbsp;&nbsp;&nbsp;知识产权</p>
         </el-col>
         <el-col :span="6" class="scan">
           <p>
-            <img src="http://157.122.54.189:9093/images/1556522965.png" alt />
+            <img src="../assets/images/首页二维码.jpg" alt />
           </p>关注我们
         </el-col>
       </el-row>
 
       <div
         class="licence"
-      >京ICP备08001421号 京公网安备110108007702 Copyright © 2016-2019 博学谷 All Rights Reserved</div>
+      >京ICP备08001421号 京公网安备110108007702 Copyright © 2016-2010 广东理工学院 All Rights Reserved</div>
     </div>
   </div>
 </template>
@@ -55,8 +46,8 @@ export default {};
 
 <style scoped lang="less">
 .footer-wrapper {
-  background: #333;
-  color: #ccc;
+  background: #f4f4f4;
+  color: #666;
   min-width: 1000px;
 }
 
@@ -76,9 +67,6 @@ export default {};
   p {
     font-size: 12px;
     line-height: 1.8;
-    span {
-      color: orange;
-    }
   }
 }
 
@@ -94,9 +82,9 @@ export default {};
 }
 
 .licence {
-  border-top: 1px #666 solid;
+  // border-top: 1px #666 solid;
   margin-top: 20px;
-  padding: 50px 0;
+  padding: 30px 0;
   text-align: center;
   font-size: 12px;
 }

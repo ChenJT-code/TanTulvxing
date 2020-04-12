@@ -18,11 +18,11 @@ export default {};
 <style scoped lang="less">
 .flight-title {
   padding: 0 15px;
-  border: 1px #ddd solid;
-  background: #f6f6f6;
+  border: 1px #2064c8 solid;
+  background: #2064c8;
   height: 38px;
   line-height: 38px;
-  color: #666;
+  color: #fff;
   font-size: 12px;
   margin-bottom: 10px;
 

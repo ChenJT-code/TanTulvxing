@@ -64,7 +64,7 @@
           </el-row>
           <el-button type="primary" class="chooseBtn" size="mini" @click="choosePeople">确认</el-button>
         </el-card>
-        <el-button type="primary" @click="lookPrice">查看价格</el-button>
+        <el-button type="primary" @click="lookPrice">查询酒店</el-button>
       </el-form-item>
     </el-form>
     <!-- 酒店详情和地图 -->
@@ -345,6 +345,7 @@ export default {
   }
   .el-button {
     margin-left: 10px;
+    background-color: #2064c8;
   }
   /deep/.el-card__body {
     padding: 10px;
